@@ -1,2 +1,2 @@
 # chatbot-itz
-Bienvenido al repositorio oficial del Chatbot-ITZ, un proyecto desarrollado para el Instituto Tecnológico de Zacatepec (ITZ).
+El Chatbot-ITZ es un proyecto desarrollado para el Instituto Tecnológico de Zacatepec (ITZ) con el objetivo de mejorar la atención y comunicación con los usuarios de la página web del ITZ. Este chatbot está diseñado para proporcionar respuestas rápidas y precisas a las dudas y consultas de los usuarios, aprovechando la tecnología de modelos de lenguaje grande (LLM) para generar diálogos más ágiles y naturales
