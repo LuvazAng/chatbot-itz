@@ -1,0 +1,1 @@
+Documentos analizados para utilizarlo en BM25
