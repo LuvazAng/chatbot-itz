@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITZ Chatbot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="chatbot-header">
+            <img src="{{ url_for('static', filename='itz_logo.png') }}" alt="ITZ Logo" class="logo">
+            <h1>ITZ Chatbot</h1>
+        </div>
+        <div class="chat-container" id="chat-container">
+            <!-- Messages will be inserted here -->
+            <div class="message bot">
+                <div class="avatar"></div>
+                <div class="message-content">
+                    <p>¡Hola! ¿En qué puedo ayudarte hoy?</p>
+                </div>
+            </div>
+        </div>
+        <div class="input-container">
+            <input type="text" id="user-input" placeholder="Envía tu duda aquí...">
+            <button onclick="sendMessage()">&#9654;</button>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
